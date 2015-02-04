@@ -1,0 +1,61 @@
+/*-----------------------------------------------------------------
+// Primary Navigation eTail Style
+-----------------------------------------------------------------*/
+.navbar{background-color:#fff; border-bottom:2px solid #284973;}
+
+.navbar-nav>li{border-right:1px solid #eee;}
+.navbar-nav>li:hover{border-top:1px solid #E9392F;}
+.navbar-nav>li:last-child{border:0px;}
+
+.navbar-nav>li>a:link{font-weight:400;color:#284973!important;font-size:11px;font-family:'Lato','Helvetica Neue','Helvetica','Arial','sans-serif';text-transform:uppercase;text-decoration:none;letter-spacing:1px;height:48px;}
+.navbar-nav>li>a:visited{color:#032b45;}
+.navbar-nav>li>a:hover{color:#c9222b!important;}
+
+@media only screen and (min-width :320px){.navbar-brand img{height:65px;margin-top:-10px;}
+.navbar-nav>li>a{font-size:10px!important;padding:10px 15px;}
+}
+/* col-xs-* */ 
+@media only screen and (min-width :480px){.navbar-nav>li>a{font-size:10px!important;padding:10px 15px;}
+}
+/* col-sm-* */
+@media only screen and (min-width :768px){.embed-responsive-item{margin-top:0px;}
+.navbar-nav{float:none;}
+.navbar-nav>li>a{font-size:10px!important;padding:15px 11px;}
+}
+/* col-md-* */
+@media only screen and (min-width :992px){.navbar-brand img{height:100px;margin-top:-10px;}
+.navbar-nav{float:left;}
+.navbar-nav>li>a{font-size:12px!important;padding:15px;}
+}
+/* col-lg-* */
+@media only screen and (min-width :1200px){.navbar-brand img{height:120px;margin-top:-10px;}
+.navbar-nav{float:left;}
+.navbar-nav>li>a{font-size:12px!important;padding:15px;}
+}
+
+/*-----------------------------------------------------------------
+// Agenda Styles
+-----------------------------------------------------------------*/
+.single-track .panel-default{border:1px DarkRed  solid;}
+.single-track .panel-title{color:#fff;}
+.single-track .panel-default>.panel-heading {background:DarkRed ;}
+
+.double-track .panel-default{border:1px green solid	;}
+.double-track .panel-title{color:#fff;}
+.double-track .panel-default>.panel-heading {background:green;}
+.double-track div:nth-child(2) .panel-default {border:1px #003300 solid!important;}
+.double-track div:nth-child(2) .panel-default>.panel-heading {border:1px #003300 solid!important; background:#003300!important;}
+
+.triple-track .panel-default{border:1px blue solid;}
+.triple-track .panel-title{color:#fff;}
+.triple-track .panel-default>.panel-heading {background:blue;}
+.triple-track div:nth-child(3) .panel-default {border:1px #000099 solid;}
+.triple-track div:nth-child(3) .panel-default>.panel-heading {border:1px #000099 solid!important; background:#000099!important;}
+
+.quad-track .panel-default{border:1px orange solid;}
+.quad-track .panel-title{color:#fff;}
+.quad-track .panel-default>.panel-heading {background:orange;}
+.quad-track div:nth-child(2) .panel-default {border:1px #CC9900 solid;}
+.quad-track div:nth-child(2) .panel-default>.panel-heading {border:1px #CC9900 solid; background:#CC9900;}
+.quad-track div:nth-child(4) .panel-default {border:1px #996633 solid;}
+.quad-track div:nth-child(4) .panel-default>.panel-heading {border:1px #996633 solid; background:#996633;}
