@@ -59,3 +59,30 @@
 .quad-track div:nth-child(2) .panel-default>.panel-heading {border:1px #CC9900 solid; background:#CC9900;}
 .quad-track div:nth-child(4) .panel-default {border:1px #996633 solid;}
 .quad-track div:nth-child(4) .panel-default>.panel-heading {border:1px #996633 solid; background:#996633;}
+
+/*-----------------------------------------------------------------
+// Pricing Table Red Styling
+-----------------------------------------------------------------*/
+
+/* Pricing Table Red Package Header Styling */
+.price.panel-red>.panel-heading { color: #333; background-color: #f9f9f9; border-color: #ccc; border-bottom: 1px solid #ccc; text-shadow: 0px 2px 0px rgba(250,250,250, .7); }
+.panel .panel-heading h4 {font-size:22px !Important; letter-spacing:1px; text-transform:uppercase; font-weight:600;}
+
+/* Pricing Table Red Pricing Header Styling */
+.price.panel-red>.panel-body {  background-color: #c9222b;}
+.price.panel-red>.panel-body p {color:#fff !important;}
+.price.panel-red>.panel-body h3 {color:#fff !important; margin: 0 0 !important;}
+.price.panel-red>.panel-body img { position: absolute; top: 35px; right: -60px; }
+
+/* Pricing Table Red Pricing Header Typography */
+.panel .panel-body p strong {color: #47080B; font-weight:900; font-size:30px;}
+.panel-body p strike {font-size:24px; }
+
+/* Pricing Table Red Body Typography */
+.price.panel-red .list-group-item { color: #333; background-color: rgba(50,50,50, .01); font-weight:600; text-shadow: 0px 1px 0px rgba(250,250,250, .75); font-size:17px !important; }
+.panel .list-group-item span {padding-top:7px; padding-right:5px; } /* Icon positioning */
+
+/* Pricing Table Red Button */
+.btn-book{text-shadow:1px 1px #333; color:#fff!important; background:#c9222b!important;  font-size:20px !important; font-weight:900 !important; text-transform:uppercase; letter-spacing:3px !important;}
+.btn-book:hover{background:#a7060f !important;}
+
