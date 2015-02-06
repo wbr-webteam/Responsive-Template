@@ -83,15 +83,10 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .container-fluid .container cite:before {content: "- ";}
 .container-fluid .container cite {font-size:18px!important;font-weight:600!important; padding:0px!important; margin:0px!important; border:none;}
 
-<<<<<<< HEAD
-/* col-xs-* */ 
-=======
-<<<<<<< HEAD
 .sponsor-strip {}
 .sponsor-strip img {border: 2px solid #D2D2D2; opacity:0.5;}
 .sponsor-strip img:hover { opacity:1; transition: .2s ease; }
 
-=======
 .sponsor-strip img {border: 2px solid #D2D2D2; opacity:0.5;}
 .sponsor-strip img:hover { opacity:1; transition: .2s ease; } 
 
@@ -117,7 +112,7 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 @media only screen and (min-width : 320px) {
     .navbar-brand img{height:70px; margin-top:-10px;}
     .navbar-nav>li>a{font-size:14px; padding:10px 15px;}
-	#footer-container {margin: 85px 0px;}
+	#footer-container {margin: 50px 0px;}
 	#nav-container nav {position: relative; right: 0; left: 0; z-index: 1030;}
 }
 
