@@ -5,11 +5,13 @@ Year: 2015
 
 eTail Red   - #c80b26
 eTail Blue  - #012B45
+
 bootstrap-primary: #428bca;
 bootstrap-success: #5cb85c;
 bootstrap-info:    #5bc0de;
 bootstrap-warning: #f0ad4e;
 bootstrap-danger:  #d9534f;
+
 */
 
 html{text-rendering:optimizeLegibility;}
@@ -30,6 +32,7 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 
 /* Text Color Utility Classes */
 .text-grey {color:#999!important;}
+.text-black {color:#333!important;}
 .text-blue {color:#012B45!important;}
 .text-white{color:#fff!important; text-shadow:.025em .025em #666;}
 
@@ -44,19 +47,23 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .br20{-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;}
 
 /* HTML Structure ID's */
-#nav-container{}
-
-#header-content{padding-top:45px; min-height:200px; background:#012B45;}
+#nav-container{height:50px;}
+		#nav-container .navbar-toggle{margin-top:-36px;}
+ 		#nav-container .nav-navbar-mobile {margin:0px auto;}
+		#nav-container .nav-navbar-mobile li{display:inline-block;}
+		#nav-container .nav-navbar-mobile li>a:link{font-size:11px;}
+		
+#header-content{background:#012B45; min-height:175px;}
 	
 #content-container {min-height:600px;}
-#content-container .container p,ul,ol,li,table,blockquote,cite,address {color:#5f5f5f; font-weight:400; line-height:25px; letter-spacing:0.25px;}
+#content-container .container p,ul,ol,li,table,blockquote,cite,address {color:#5f5f5f; font-weight:400; line-height:25px; letter-spacing:0.065em;}
 #content-container .container a{color:#428bca;}
 #content-container .container .btn{color:#fff;}
 
 #footer-container {min-height:140px; margin-top:40px; background:#012B45;}
 #footer-container p,a,ul,ol,table,blockquote,cite,address{color:#fff;}
 #footer-container li{border-right:.15em #fff solid; line-height:12px;}
- #footer-container li:last-child {border:none;}
+#footer-container li:last-child {border:none;}
 
 /* Primary Nav */
 #nav-container .navbar-default {background:#fff!important; border-bottom:2px solid #012B45!important;}
@@ -64,7 +71,7 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .navbar-nav>li {border-right:1px solid #eee;}
 .navbar-nav>li:last-child {border:0px;}
 .navbar-nav>li>a{color:#333!important;}
-.navbar-nav>li>a:hover{color:#999!important;}
+.navbar-nav>li>a:hover{color:#999!important; }
 
 /* .container-fluid Blockqoute Stlying*/
 .container blockquote {background:#fbfbfb; border-left:3px #eee solid!important;}
@@ -77,6 +84,9 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .container-fluid .container cite {font-size:18px!important;font-weight:600!important; padding:0px!important; margin:0px!important; border:none;}
 
 <<<<<<< HEAD
+/* col-xs-* */ 
+=======
+<<<<<<< HEAD
 .sponsor-strip {}
 .sponsor-strip img {border: 2px solid #D2D2D2; opacity:0.5;}
 .sponsor-strip img:hover { opacity:1; transition: .2s ease; }
@@ -86,7 +96,9 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .sponsor-strip img:hover { opacity:1; transition: .2s ease; } 
 
 
-/* Pricing Table Styling */
+/*-----------------------------------------------------------------
+// Pricing Table base Styling
+-----------------------------------------------------------------*/
 
 /*  Pricing Table Hover Effects */
 .panel.price {border: 1px solid rgb(236, 236, 236) !important; }
@@ -101,64 +113,44 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .price .panel-footer { color: #fff; border-bottom:0px; background-color:  rgba(0,0,0, .1); box-shadow: 0px 3px 0px rgba(0,0,0, .3);} /* Footer Box styling */
 
 
-/* Red STYLING */
-
-/* Pricing Table Red Package Header Styling */
-.price.panel-red>.panel-heading { color: #333; background-color: #f9f9f9; border-color: #ccc; border-bottom: 1px solid #ccc; text-shadow: 0px 2px 0px rgba(250,250,250, .7); }
-.panel .panel-heading h4 {font-size:22px !Important; letter-spacing:1px; text-transform:uppercase; font-weight:600;}
-
-/* Pricing Table Red Pricing Header Styling */
-.price.panel-red>.panel-body {  background-color: #c9222b;}
-.price.panel-red>.panel-body p {color:#fff !important;}
-.price.panel-red>.panel-body h3 {color:#fff !important; margin: 0 0 !important;}
-.price.panel-red>.panel-body img { position: absolute; top: 35px; right: -60px; }
-
-/* Pricing Table Red Pricing Header Typography */
-.panel .panel-body p strong {color: #47080B; font-weight:900; font-size:30px;}
-.panel-body p strike {font-size:24px; }
-
-/* Pricing Table Red Body Typography */
-.price.panel-red .list-group-item { color: #333; background-color: rgba(50,50,50, .01); font-weight:600; text-shadow: 0px 1px 0px rgba(250,250,250, .75); font-size:17px !important; }
-.panel .list-group-item span {padding-top:7px; padding-right:5px; } /* Icon positioning */
-
-/* Pricing Table Red Button */
-.btn-book{text-shadow:1px 1px #333; color:#fff!important; background:#c9222b!important;  font-size:20px !important; font-weight:900 !important; text-transform:uppercase; letter-spacing:3px !important;}
-.btn-book:hover{background:#a7060f !important;}
-
-
-
 /* Custom, iPhone Retina */ 
+>>>>>>> FETCH_HEAD
 @media only screen and (min-width : 320px) {
-    .navbar-brand img{height:65px; margin-top:-10px;}
- 	.embed-responsive-item{margin-top:10px;}
+    .navbar-brand img{height:70px; margin-top:-10px;}
     .navbar-nav>li>a{font-size:14px; padding:10px 15px;}
+	#footer-container {margin: 85px 0px;}
+	#nav-container nav {position: relative; right: 0; left: 0; z-index: 1030;}
 }
 
-/* Extra Small Devices, Phones */ 
+/* col-xs-* */ 
 @media only screen and (min-width : 480px) {
-     .navbar-nav>li>a{font-size:14px; padding:10px 15px;}
+    .navbar-nav>li>a{font-size:14px; padding:10px 15px;}
+	#footer-container {margin: 85px 0px;}
+	#nav-container nav {position: relative; right: 0; left: 0; z-index: 1030;}
 }
 
-/* Small Devices, Tablets */
+/* col-sm-* */
 @media only screen and (min-width : 768px) {
- 	.embed-responsive-item{margin-top:0px;}
     .navbar-nav {float:none;}
-    .navbar-nav>li>a{font-size:14px; padding:15px 11px;}
+    .navbar-nav>li>a{font-size:12px; padding:15px 10px;}
+	#footer-container{margin:0px; margin-top:40px;}
+	#nav-container nav {position: fixed; right: 0; left: 0; z-index: 1030;}
 }
 
-/* Medium Devices, Desktops */
+/* col-md-* */
 @media only screen and (min-width : 992px) {
     .navbar-brand img{height:100px; margin-top:-10px;}
     .navbar-nav {float:left;}
     .navbar-nav>li>a{font-size:14px; padding:15px;}
-	.embed-responsive-item{margin-top:0px;}
+	#footer-container{margin:0px; margin-top:40px;}
+	#nav-container nav {position: fixed; right: 0; left: 0; z-index: 1030;}
 }
 
-/* Large Devices, Wide Screens */
+/* col-lg-* */
 @media only screen and (min-width : 1200px) {
     .navbar-brand img{height:120px; margin-top:-10px;}
     .navbar-nav {float:left;}
-    .navbar-nav>li>a{font-size:14px; padding:15px;}
-  	.embed-responsive-item{margin-top:0px;}
+    .navbar-nav>li>a{font-size:14px; padding:15px 20px;}
+	#footer-container{margin:0px; margin-top:40px;}
+	#nav-container nav {position: fixed; right: 0; left: 0; z-index: 1030;}
 }
->>>>>>> master

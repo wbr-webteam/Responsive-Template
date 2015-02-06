@@ -1,36 +1,51 @@
 /*-----------------------------------------------------------------
-// Primary Navigation eTail Style
+// Navigation eTail Style
 -----------------------------------------------------------------*/
-.navbar{background-color:#fff; border-bottom:2px solid #284973;}
+#nav-container{height:50px;}
+		#nav-container .navbar-toggle{margin-top:-36px;}
+		#nav-container .nav-navbar-mobile li>a:link {color:red!important; padding:12px; font-size:11px;}
+ 		#nav-container .navbar-toggle{margin-top:-42px;}
+
+#nav-container {background-color:#fff; border-bottom:2px solid #284973;}
 
 .navbar-nav>li{border-right:1px solid #eee;}
 .navbar-nav>li:hover{border-top:1px solid #E9392F;}
-.navbar-nav>li:last-child{border:0px;}
+.navbar-nav>li:last-child{border-right:0px;}
 
-.navbar-nav>li>a:link{font-weight:400;color:#284973!important;font-size:11px;font-family:'Lato','Helvetica Neue','Helvetica','Arial','sans-serif';text-transform:uppercase;text-decoration:none;letter-spacing:1px;height:48px;}
+.navbar-nav>li>a:link{font-weight:400;color:#284973!important;font-size:11px;font-family:'Lato','Helvetica Neue','Helvetica','Arial','sans-serif';text-transform:uppercase;text-decoration:none;letter-spacing:0.065em;height:48px;}
 .navbar-nav>li>a:visited{color:#032b45;}
-.navbar-nav>li>a:hover{color:#c9222b!important;}
+.navbar-nav>li>a:hover{color:#c9222b!important; border-top:1px solid #E9392F; margin-top:-2px;}
 
-@media only screen and (min-width :320px){.navbar-brand img{height:65px;margin-top:-10px;}
-.navbar-nav>li>a{font-size:10px!important;padding:10px 15px;}
+.dropdown-menu{background-color: rgba(1, 43, 69, 0.85); border:1px #012B45 solid; box-shadow: 3px 3px 10px #333;}
+.dropdown-menu>li {margin:10px auto;}
+.dropdown-menu>li:first-child {margin-top:0px;}
+.dropdown-menu>li:last-child {margin-bottom:0px;}
+.dropdown-menu>li>a:link{padding:10px; color:#fff!important; font-size:11px; letter-spacing:0.065em; text-transform:uppercase; font-weight:400; font-family:'Lato','Helvetica Neue','Helvetica','Arial','sans-serif';}
+.dropdown-menu>li>a:visited{color:#fff!important;}
+.dropdown-menu>li>a:hover{color:#012B45!important; background-color:#fbfbfb; font-weight:600!important;}
+
+/* col-xs-* */ 
+@media only screen and (min-width :320px){ 
+	.navbar-nav>li>a{font-size:10px!important;padding:10px 15px;}
 }
 /* col-xs-* */ 
-@media only screen and (min-width :480px){.navbar-nav>li>a{font-size:10px!important;padding:10px 15px;}
+@media only screen and (min-width :480px){
+	.navbar-nav>li>a{font-size:10px!important;padding:10px 15px;}
 }
 /* col-sm-* */
 @media only screen and (min-width :768px){.embed-responsive-item{margin-top:0px;}
-.navbar-nav{float:none;}
-.navbar-nav>li>a{font-size:10px!important;padding:15px 11px;}
+	.navbar-nav{float:none;}
+	.navbar-nav>li>a{font-size:10px!important;padding:15px 11px;}
 }
 /* col-md-* */
-@media only screen and (min-width :992px){.navbar-brand img{height:100px;margin-top:-10px;}
-.navbar-nav{float:left;}
-.navbar-nav>li>a{font-size:12px!important;padding:15px;}
+@media only screen and (min-width :992px){
+	.navbar-nav{float:left;}
+	.navbar-nav>li>a{font-size:12px!important;padding:15px;}
 }
 /* col-lg-* */
-@media only screen and (min-width :1200px){.navbar-brand img{height:120px;margin-top:-10px;}
-.navbar-nav{float:left;}
-.navbar-nav>li>a{font-size:12px!important;padding:15px;}
+@media only screen and (min-width :1200px){
+	.navbar-nav{float:left;}
+	.navbar-nav>li>a{font-size:12px!important;padding:15px 20px;}
 }
 
 /*-----------------------------------------------------------------
@@ -59,3 +74,63 @@
 .quad-track div:nth-child(2) .panel-default>.panel-heading {border:1px #CC9900 solid; background:#CC9900;}
 .quad-track div:nth-child(4) .panel-default {border:1px #996633 solid;}
 .quad-track div:nth-child(4) .panel-default>.panel-heading {border:1px #996633 solid; background:#996633;}
+
+<<<<<<< HEAD
+
+
+.sponsor-strip {}
+.sponsor-strip img {border: 2px solid #D2D2D2; opacity:0.5;}
+.sponsor-strip img:hover { opacity:1; transition: .2s ease; }
+
+ .sponsor-strip img {border: 2px solid #D2D2D2; opacity:0.5;}
+.sponsor-strip img:hover { opacity:1; transition: .2s ease; } 
+
+/*-----------------------------------------------------------------
+// Pricing Page 
+-----------------------------------------------------------------*/
+
+/* Pricing Table Styling */
+
+/*  Pricing Table Hover Effects */
+.panel.price {border: 1px solid rgb(236, 236, 236) !important; }
+.panel.price, .panel.price>.panel-heading{ border-radius:0px;  -moz-transition: all .3s ease; -o-transition:  all .3s ease; -webkit-transition:  all .3s ease; }
+.panel.price:hover{ box-shadow: 0px 0px 30px rgba(0,0,0, .2); }
+.panel.price:hover>.panel-heading{ box-shadow: 0px 0px 30px rgba(0,0,0, .05) inset; }
+
+/* Pricing Table Subtle Border Styling */
+.panel.price>.panel-heading{ box-shadow: 0px 3px 0px rgba(200,200,200, .2) inset; }
+
+/*  Pricing Table Footer */
+.price .panel-footer { color: #fff; border-bottom:0px; background-color:  rgba(0,0,0, .1); box-shadow: 0px 3px 0px rgba(0,0,0, .3);} /* Footer Box styling */
+
+
+/* Red STYLING */
+
+=======
+/*-----------------------------------------------------------------
+// Pricing Table Red Styling
+-----------------------------------------------------------------*/
+
+>>>>>>> FETCH_HEAD
+/* Pricing Table Red Package Header Styling */
+.price.panel-red>.panel-heading { color: #333; background-color: #f9f9f9; border-color: #ccc; border-bottom: 1px solid #ccc; text-shadow: 0px 2px 0px rgba(250,250,250, .7); }
+.panel .panel-heading h4 {font-size:22px !Important; letter-spacing:1px; text-transform:uppercase; font-weight:600;}
+
+/* Pricing Table Red Pricing Header Styling */
+.price.panel-red>.panel-body {  background-color: #c9222b;}
+.price.panel-red>.panel-body p {color:#fff !important;}
+.price.panel-red>.panel-body h3 {color:#fff !important; margin: 0 0 !important;}
+.price.panel-red>.panel-body img { position: absolute; top: 35px; right: -60px; }
+
+/* Pricing Table Red Pricing Header Typography */
+.panel .panel-body p strong {color: #47080B; font-weight:900; font-size:30px;}
+.panel-body p strike {font-size:24px; }
+
+/* Pricing Table Red Body Typography */
+.price.panel-red .list-group-item { color: #333; background-color: rgba(50,50,50, .01); font-weight:600; text-shadow: 0px 1px 0px rgba(250,250,250, .75); font-size:17px !important; }
+.panel .list-group-item span {padding-top:7px; padding-right:5px; } /* Icon positioning */
+
+/* Pricing Table Red Button */
+.btn-book{text-shadow:1px 1px #333; color:#fff!important; background:#c9222b!important;  font-size:20px !important; font-weight:900 !important; text-transform:uppercase; letter-spacing:3px !important;}
+.btn-book:hover{background:#a7060f !important;}
+
