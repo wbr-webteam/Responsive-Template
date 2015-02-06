@@ -15,57 +15,78 @@ bootstrap-danger:  #d9534f;
 */
 
 body{background:#fbfbfb;}
-
-#nav-container{height:50px;}
+  
+#nav-container{height:50px; background-color:#fff; border-bottom:2px solid #284973;}
 .navbar-default {background:#fff!important; border-bottom:2px solid #012B45!important;}
-.nav-navbar-mobile li>a:link {color:red!important; padding:12px; font-size:11px;}
-
-#nav-container {background-color:#fff; border-bottom:2px solid #284973;}
+.nav-navbar-mobile li>a:link {padding:12px; font-size:11px;}
 
 .navbar-nav>li{border-right:1px solid #eee;}
 .navbar-nav>li:hover{border-top:1px solid #E9392F;}
 .navbar-nav>li:last-child{border-right:0px;}
 
-.navbar-nav>li>a:link{font-weight:400;color:#284973!important;font-size:11px;font-family:'Lato','Helvetica Neue','Helvetica','Arial','sans-serif';text-transform:uppercase;text-decoration:none;letter-spacing:0.065em;height:48px;}
+.navbar-nav>li>a:link{color:#284973;font-size:11px; text-transform:uppercase; letter-spacing:0.065em; font-weight:400; height:48px; font-family:'Lato','Helvetica Neue','Helvetica','Arial','sans-serif';}
 .navbar-nav>li>a:visited{color:#032b45;}
-.navbar-nav>li>a:hover{color:#c9222b!important; border-top:1px solid #E9392F; margin-top:-2px;}
+.navbar-nav>li>a:hover{color:#c9222b; border-top:1px solid #E9392F; margin-top:-2px;}
 
 .dropdown-menu{background-color: rgba(1, 43, 69, 0.85); border:1px #012B45 solid; box-shadow: 3px 3px 10px #333;}
 .dropdown-menu>li {margin:10px auto;}
 .dropdown-menu>li:first-child {margin-top:0px;}
 .dropdown-menu>li:last-child {margin-bottom:0px;}
-.dropdown-menu>li>a:link{padding:10px; color:#fff!important; font-size:11px; letter-spacing:0.065em; text-transform:uppercase; font-weight:400; font-family:'Lato','Helvetica Neue','Helvetica','Arial','sans-serif';}
-.dropdown-menu>li>a:visited{color:#fff!important;}
-.dropdown-menu>li>a:hover{color:#012B45!important; background-color:#fbfbfb; font-weight:600!important;}
+.dropdown-menu>li>a:link{font-size:11px; letter-spacing:0.065em; text-transform:uppercase; font-weight:400; padding:10px; font-family:'Lato','Helvetica Neue','Helvetica','Arial','sans-serif';}
+ 
 
 /* col-xs-* */ 
 @media only screen and (min-width :320px){ 
 	.navbar-nav>li>a{font-size:10px!important;padding:10px 15px;}
 	.nav-navbar-mobile>li>a{font-size:12px!important;padding:10px 15px;}
+   
+   .dropdown-menu>li>a:link{color:#012B45; font-size:10px;}
+   .dropdown-menu>li>a:visited{color:#012B45;}
+   .dropdown-menu>li>a:hover{color:#012B45;}
 }
+
 /* col-xs-* */ 
 @media only screen and (min-width :480px){
 	.navbar-brand img{height:70px; margin-top:-10px;}
  	.navbar-nav>li>a{font-size:10px!important;padding:10px 15px;}
 	.nav-navbar-mobile>li>a{font-size:12px!important;padding:10px 15px;}
+
+  	.dropdown-menu>li>a:link{color:#fff;}
+	.dropdown-menu>li>a:visited{color:#fff;}
+	.dropdown-menu>li>a:hover{color:#012B45;}
 }
+
 /* col-sm-* */
 @media only screen and (min-width :768px){ 
 	.navbar-brand img{height:70px; margin-top:-10px;}
   	.navbar-nav{float:none;}
 	.navbar-nav>li>a{font-size:10px!important;padding:15px 10px;}
+
+	.dropdown-menu>li>a:link{color:#fff;}
+	.dropdown-menu>li>a:visited{color:#fff;}
+	.dropdown-menu>li>a:hover{color:#012B45;}
 }
+
 /* col-md-* */
 @media only screen and (min-width :992px){
 	.navbar-brand img{height:90px; margin-top:-10px;}
  	.navbar-nav{float:left;}
 	.navbar-nav>li>a{font-size:12px!important;padding:15px;}
+	
+	.dropdown-menu>li>a:link{color:#fff;}
+	.dropdown-menu>li>a:visited{color:#fff;}
+	.dropdown-menu>li>a:hover{color:#012B45;}
 }
+
 /* col-lg-* */
 @media only screen and (min-width :1200px){
 	.navbar-brand img{height:110px; margin-top:-10px;}
  	.navbar-nav{float:left;}
 	.navbar-nav>li>a{font-size:12px!important;padding:15px 20px;}
+	
+	.dropdown-menu>li>a:link{color:#fff;}
+	.dropdown-menu>li>a:visited{color:#fff;}
+	.dropdown-menu>li>a:hover{color:#012B45;}
 }
 
 /*-----------------------------------------------------------------
@@ -95,9 +116,7 @@ body{background:#fbfbfb;}
 .quad-track div:nth-child(4) .panel-default {border:1px #996633 solid;}
 .quad-track div:nth-child(4) .panel-default>.panel-heading {border:1px #996633 solid; background:#996633;}
 
-<<<<<<< HEAD
-
-
+ 
 .sponsor-strip {}
 .sponsor-strip img {border: 2px solid #D2D2D2; opacity:0.5;}
 .sponsor-strip img:hover { opacity:1; transition: .2s ease; }
