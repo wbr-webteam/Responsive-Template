@@ -1,10 +1,24 @@
-/*-----------------------------------------------------------------
-// Navigation eTail Style
------------------------------------------------------------------*/
+/*
+Site Name: EMS Bootstrap Theme
+Author: WBR Web Team
+Year: 2015
+
+eTail Red   - #c80b26
+eTail Blue  - #012B45
+
+bootstrap-primary: #428bca;
+bootstrap-success: #5cb85c;
+bootstrap-info:    #5bc0de;
+bootstrap-warning: #f0ad4e;
+bootstrap-danger:  #d9534f;
+
+*/
+
+body{background:#fbfbfb;}
+
 #nav-container{height:50px;}
-		#nav-container .navbar-toggle{margin-top:-36px;}
-		#nav-container .nav-navbar-mobile li>a:link {color:red!important; padding:12px; font-size:11px;}
- 		#nav-container .navbar-toggle{margin-top:-42px;}
+.navbar-default {background:#fff!important; border-bottom:2px solid #012B45!important;}
+.nav-navbar-mobile li>a:link {color:red!important; padding:12px; font-size:11px;}
 
 #nav-container {background-color:#fff; border-bottom:2px solid #284973;}
 
