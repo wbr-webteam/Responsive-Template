@@ -78,22 +78,18 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .container-fluid .container cite:before {content: "- ";}
 .container-fluid .container cite {font-size:18px!important;font-weight:600!important; padding:0px!important; margin:0px!important; border:none;}
 
-<<<<<<< HEAD
-.sponsor-strip {}
+
 .sponsor-strip img {border: 2px solid #D2D2D2; opacity:0.5;}
 .sponsor-strip img:hover { opacity:1; transition: .2s ease; }
-
-=======
-.sponsor-strip img {border: 2px solid #D2D2D2; opacity:0.5;}
-.sponsor-strip img:hover { opacity:1; transition: .2s ease; } 
 
 
 /*-----------------------------------------------------------------
 // Pricing Table base Styling
 -----------------------------------------------------------------*/
+.panel-body {background-color:#aaa;}
 
 /*  Pricing Table Hover Effects */
-.panel.price {border: 1px solid rgb(236, 236, 236) !important; }
+.panel.price {border: 1px solid rgb(236, 236, 236); }
 .panel.price, .panel.price>.panel-heading{ border-radius:0px;  -moz-transition: all .3s ease; -o-transition:  all .3s ease; -webkit-transition:  all .3s ease; }
 .panel.price:hover{ box-shadow: 0px 0px 30px rgba(0,0,0, .2); }
 .panel.price:hover>.panel-heading{ box-shadow: 0px 0px 30px rgba(0,0,0, .05) inset; }
@@ -103,6 +99,16 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 
 /*  Pricing Table Footer */
 .price .panel-footer { color: #fff; border-bottom:0px; background-color:  rgba(0,0,0, .1); box-shadow: 0px 3px 0px rgba(0,0,0, .3);} /* Footer Box styling */
+.price .pricing-qty {color:gray;}
+
+/* Pricing Table Pricing Header Typography */
+.panel .panel-body p strong {color: #47080B; font-weight:900; font-size:30px;}
+.panel-body p strike {font-size:24px; }
+
+/* Pricing Table Red Button */
+.btn-register{text-shadow:1px 1px #333; color:#fff; background:#c9222b;  font-size:18px ; font-weight:900 ; text-transform:uppercase; letter-spacing:1px ;}
+.btn-register:hover{background:#a7060f ;}
+
 
 
 /* Custom, iPhone Retina */ 
