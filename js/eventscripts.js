@@ -29,3 +29,9 @@ $(document).ready(function(){
 		});		
 	});
 });
+
+// Sponsor Strip                                 
+$('.sponslider1').cycle({ fx: 'fade', speed: 300, timeout: 2000 });
+$('.sponslider2').cycle({ fx: 'fade', speed: 600, timeout: 2000 });
+$('.sponslider3').cycle({ fx: 'fade', speed: 900, timeout: 2000 });
+                                                  
