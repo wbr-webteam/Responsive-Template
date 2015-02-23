@@ -3,7 +3,7 @@
 -----------------------------------------------------------------*/
 .navbar{background-color:#fff; border-bottom:2px solid #284973;}
 
-.navbar-nav>li{border-right:1px solid #eee;}
+.navbar-nav>li{border-right:1px solid #eee; border-top:1px solid #fff;}
 .navbar-nav>li:hover{border-top:1px solid #E9392F;}
 .navbar-nav>li:last-child{border:0px;}
 
