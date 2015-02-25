@@ -17,8 +17,8 @@ bootstrap-danger:  #d9534f;
 body{background:#fbfbfb; font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';}
 h1.page-header{text-align:center;}
 
-#nav-container{height:50px; background-color:#fff; border-bottom:2px solid #284973;}
-.navbar-default {background:#fff!important; border-bottom:2px solid #012B45!important;}
+#nav-container{height:50px; background-color:#fff; }
+.navbar-default {background:#fff!important; border-bottom:2px solid #c80b26!important;}
 .nav-navbar-mobile li>a:link {padding:12px; font-size:11px;}
 
 .navbar-nav>li{border-right:1px solid #eee;}
@@ -35,6 +35,13 @@ h1.page-header{text-align:center;}
 .dropdown-menu>li:last-child {margin-bottom:0px;}
 .dropdown-menu>li>a:link{font-size:11px; letter-spacing:0.065em; text-transform:uppercase; font-weight:400; padding:10px; font-family:'Lato','Helvetica Neue','Helvetica','Arial','sans-serif';}
  
+#header-content .event-dynamic-name h3 {color:#E9EED0!important;}
+#header-content .event-dynamic-name:hover {color:#E9EED0!important;}
+
+#header-content .event-dynamic-info span{color:#fff;font-size:80%;font-weight:400;line-height:20px;letter-spacing:0.065em;}
+#header-content .event-dynamic-info span.lang-toggle a:link,a:hover,a:visited,a:focus{color:#fff!important;}
+
+#header-content .lang-toggle a:first-child {pointer-events: none;color:#999!important; font-weight:bold!important;}
 
 /* col-xs-* */ 
 @media only screen and (min-width :320px){ 
@@ -158,4 +165,3 @@ h1.page-header{text-align:center;}
 /* Pricing Table Red Button */
 .btn-register{text-shadow:1px 1px #333; color:#fff; background:#c9222b;  font-size:20px ; font-weight:900 ; text-transform:uppercase; letter-spacing:1px ;}
 .btn-register:hover{background:#a7060f ;}
-
