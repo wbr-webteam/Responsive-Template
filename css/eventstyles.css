@@ -112,6 +112,27 @@ h1.page-header{text-align:center;}
 
 
 /*-----------------------------------------------------------------
+// Speaker Page
+-----------------------------------------------------------------*/
+/* Speaker Listing Page */
+.speaker-list  .speaker-listing{}
+.speaker-list  .speaker-name{}
+.speaker-list  .speaker-title{display:block;}
+.speaker-list  .speaker-company{display:block;}
+.speaker-list  .speaker-logo{float:right; margin-top:20px;}
+.speaker-list  .speaker-image img{display: block; max-width: 100%; height: auto;}
+
+/* Speaker Info Page */
+.speaker-info .speaker-listing{}
+.speaker-info .speaker-name{}
+.speaker-info .speaker-title{font-size:16px!important; font-weight:700;}
+.speaker-info .speaker-company{font-size:16px!important; font-weight:700;}
+.speaker-info .speaker-logo{float:right; margin:10px;}
+.speaker-info .speaker-image img{display: block; max-width: 100%; height: auto;}
+
+
+
+/*-----------------------------------------------------------------
 // Agenda Styles
 -----------------------------------------------------------------
 .single-track .panel-default{border:1px DarkRed  solid;}
