@@ -91,21 +91,13 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .dropdown-menu>li>a:link{font-size:14px;}
 
 
-/* Speaker Listing Page */
-.speaker-list  .speaker-listing{}
-.speaker-list  .speaker-name{}
-.speaker-list  .speaker-title{display:block;}
-.speaker-list  .speaker-company{display:block;}
-.speaker-list  .speaker-logo{float:right; margin-top:20px;}
-.speaker-list  .speaker-image img{display: block; max-width: 100%; height: auto;}
-
-/* Speaker Info Page */
-.speaker-info .speaker-listing{}
-.speaker-info .speaker-name{}
-.speaker-info .speaker-title{display:block;}
-.speaker-info .speaker-company{display:block;}
-.speaker-info .speaker-logo{float:right; margin-top:20px;}
-.speaker-info .speaker-image img{display: block; max-width: 100%; height: auto;}
+/* Speaker Listings  */
+.speakers .speaker-listing{}
+.speakers .speaker-name{}
+.speakers .speaker-title{display:block;}
+.speakers .speaker-company{display:block;}
+.speakers .speaker-logo{float:right; margin-top:20px;}
+.speakers .speaker-image img{display: block; max-width: 100%; height: auto;}
 
 /* Agenda Day CSS */
 .agenda-day .panel {margin-bottom:10px!important;}
