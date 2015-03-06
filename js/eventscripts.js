@@ -1,16 +1,19 @@
 
 //Agenda Show toggle
-$('#toggle').click(function(){
-  $('.panel-collapse.in')
-    .collapse('hide');
-  	$(this).text(function(i, text){
-  	    return text === "- Show Less" ? "+ Show More" : "- Show Less";
-  	})
+$(document).ready(function(){
+	$('#toggle').click(function() {
+	    if ($('.panel-collapse').hasClass('in')){
+	        $('.panel-collapse').removeClass('in');  
+	    } else {
+	        $('.panel-collapse').addClass('in');
+	      }
+	});
 });
-$('#toggle').click(function(){
-  $('.panel-collapse:not(".in")')
-    .collapse('show');
-});
+
+
+
+
+
 
 
 
