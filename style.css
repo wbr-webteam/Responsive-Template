@@ -104,12 +104,11 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .agenda-day .panel-heading{padding: 15px;}
 .agenda-day .panel-collapse {background:#fff ;}
 
-/* Media Cebter Scroll To Category Dropdown*/
-.media-type .dropdown .btn {border:none; }
+/*.media-type .dropdown .btn {border:none; }
 .media-type .dropdown .btn-default, .btn-default:hover, .btn-default:active {background-color:transparent; border:none; outline:0px !important; -webkit-appearance:none; -webkit-box-shadow:none; box-shadow:none;}
 .media-type .dropdown .caret { border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 8px solid #000000; }
 .media-type .dropdown .media-type-title {font-size:22px; text-decoration:underline;}
-.media-type .dropdown .dropdown-menu {background-color:#eaeaea; box-shadow:none; border:none; }
+.media-type .dropdown .dropdown-menu {background-color:#eaeaea; box-shadow:none; border:none; }*/
 
 /* Media Cebter Listings*/
 .well { -webkit-border-radius:2px; -webkit-background-clip:padding-box; -moz-border-radius:2px; -moz-background-clip:padding; border-radius:2px; background-clip:padding-box; -webkit-box-shadow:0 0 3px rgba(0,0,0,.2);-moz-box-shadow:0 0 3px rgba(0,0,0,.2);box-shadow:0 0 3px rgba(0,0,0,.2); background-color:#fbfbfb; border:0; color:#262626; position:relative; margin-bottom:30px; min-height:0;}
@@ -117,6 +116,8 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .well.with-footer { padding-bottom:60px;}
 .well .well-header { position:absolute; top:0; right:0; left:0; padding:5px 0 0 5px; text-align:left; border-radius:2px 2px 0 0; border-bottom:1px solid #e5e5e5 }
 .well .well-footer { position:absolute; bottom:0; right:0; left:0; padding:5px 0 0 5px; border-top:1px solid #e5e5e5; border-radius:0 0 2px 2px}
+
+.mediacenter .breadcrumb>li+li:before {content: "\00a6";}
 
 .bordered-red {  border-color: #c80b26 !important;}
 
