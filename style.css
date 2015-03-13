@@ -109,7 +109,8 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 /* Agenda Day CSS */
 .agenda-day .panel {margin-bottom:10px!important;}
 .agenda-day .panel-heading{padding: 15px;}
-.agenda-day .panel-collapse {background:#fff ;}
+.agenda-day .panel-collapse {background:#fff!important;}
+.agenda-day .collapse.in{display:inline!important;min-height:100%!important;}
 
  
 /* col-xs-* */ 
