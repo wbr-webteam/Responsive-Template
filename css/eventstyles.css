@@ -115,7 +115,7 @@ h1.page-header{text-align:center;}
 .speaker-list  .speaker-name{}
 .speaker-list  .speaker-title{display:block;}
 .speaker-list  .speaker-company{display:block;}
-.speaker-list  .speaker-logo{float:right; margin-top:20px;}
+.speaker-list  .speaker-logo{}
 .speaker-list  .speaker-image img{display: block; max-width: 100%; height: auto;}
 
 /* Speaker Info Page */
