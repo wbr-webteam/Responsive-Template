@@ -103,7 +103,7 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .speakers .speaker-name{}
 .speakers .speaker-title{display:block;}
 .speakers .speaker-company{display:block;}
-.speakers .speaker-logo{float:right; margin-top:20px;}
+.speakers .speaker-logo{margin-top:20px;}
 .speakers .speaker-image img{display: block; max-width: 100%; height: auto;}
 
 /* Agenda Day CSS */
