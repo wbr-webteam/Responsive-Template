@@ -11,12 +11,6 @@ $(document).ready(function(){
 });
 
 
-
-
-
-
-
-
 // Bootstrap Speakers Live Search
 $(document).ready(function(){
 	$(".search").keyup(function(){
@@ -25,13 +19,17 @@ $(document).ready(function(){
 			if($(this).attr("id")){
 				if(!$(this).attr("id").match(new RegExp(str, "i"))){
 					$(this).fadeOut("10");
- 				}else{
+					$( ".errorbox" ).removeClass( "hidden");
+     			}
+			else{
 					$(this).fadeIn("10");
- 				}
+					$( ".errorbox" ).addClass( "hidden");
+  				}
 			}
 		});		
 	});
 });
+
 
 // Sponsor Strip                                 
 $('.sponslider1').cycle({ fx: 'fade', speed: 300, timeout: 2000 });
