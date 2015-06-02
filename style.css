@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .nav-navbar-mobile li{display:inline-block;}
 .nav-navbar-mobile li>a:link{font-size:11px;}
 		
-#header-content{background:#012B45; min-height:175px;}
+#header-content{background:#012B45; min-height:175px; }
 #header-content .event-dynamic-name h3 {color:#fff;}
 #header-content .event-dynamic-name:hover {text-decoration:none!important;}
 #header-content .event-dynamic-info span{color:#fff; display:block;}
@@ -78,7 +78,6 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 	@media only screen and (min-width :992px){#sponsor-container img{height:120px;width:140px;}}
 	@media only screen and (min-width :1200px){#sponsor-container img{height:120px;width:180px;}}
 
-
 #footer-container {min-height:140px; margin-top:40px; background:#012B45;}
 #footer-container p,a,ul,ol,table,blockquote,cite,address{color:#fff;}
 #footer-container li{border-right:.15em #fff solid; line-height:12px;}
@@ -97,14 +96,15 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .dropdown-menu>li {}
 .dropdown-menu>li>a:link{font-size:14px;}
 
+/* Speakers Listing / Info */
+.speaker-list .speaker-image img{margin:0px auto; display:block;}
+.speaker-list .speaker-logo img{margin:0px auto; display:block;}
+.speaker-list .speaker-bio {margin-top:20px;}
 
-/* Speaker Listings  */
-.speakers .speaker-listing{}
-.speakers .speaker-name{}
-.speakers .speaker-title{display:block;}
-.speakers .speaker-company{display:block;}
-.speakers .speaker-logo{margin-top:20px;}
-.speakers .speaker-image img{display: block; max-width: 100%; height: auto;}
+.speaker-info .speaker-image img{margin:0px auto; display:block;}
+.speaker-info .speaker-logo img{margin:0px auto; display:block;}
+.speaker-info .speaker-bio {margin-top:20px;}
+
 
 /* Agenda Day CSS */
 .agenda-day .panel {margin-bottom:10px!important;}
