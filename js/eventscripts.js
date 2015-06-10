@@ -13,6 +13,7 @@ $(document).ready(function(){
 
 // Bootstrap Speakers Live Search
 $(document).ready(function(){
+	//$('.search').attr( "placeholder", "Jabberwocky" ); // Change Search Box Dispaly Text
 	$(".search").keyup(function(){
 		var str = $(".search").val();
 		$(".speaker-listing").each(function(index){
@@ -31,8 +32,11 @@ $(document).ready(function(){
 });
 
 
+
+
+
 // Sponsor Strip                                 
 $('.sponslider1').cycle({ fx: 'fade', speed: 300, timeout: 2000 });
 $('.sponslider2').cycle({ fx: 'fade', speed: 600, timeout: 2000 });
 $('.sponslider3').cycle({ fx: 'fade', speed: 900, timeout: 2000 });
-                                                  
+                          
