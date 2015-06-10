@@ -96,14 +96,23 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .dropdown-menu>li {}
 .dropdown-menu>li>a:link{font-size:14px;}
 
-/* Speakers Listing / Info */
-.speaker-list .speaker-image img{margin:0px auto; display:block;}
-.speaker-list .speaker-logo img{margin:0px auto; display:block;}
+/* Speakers Listing  */
+.speaker-list .speaker-image img{margin:0px auto; display:block; max-height:160px; max-width:160px;}
+.speaker-list .speaker-logo img{margin:0px auto; display:block; max-height:140px; max-width:140px;}
 .speaker-list .speaker-bio {margin-top:20px;}
 
-.speaker-info .speaker-image img{margin:0px auto; display:block;}
-.speaker-info .speaker-logo img{margin:0px auto; display:block;}
+.speaker-list .speaker-title:after {content: ",  ";}
+.speaker-list .speaker-company{font-weight:700!important;}
+.speaker-list .btn-speaker-bio{margin-top:20px;}
+
+
+/* Speakers Info */
+.speaker-info .speaker-image img{margin:0px auto; display:block; max-height:160px; max-width:160px;}
+.speaker-info .speaker-logo img{margin:0px auto; display:block; max-height:140px; max-width:140px;}
 .speaker-info .speaker-bio {margin-top:20px;}
+
+.speaker-info .speaker-title:after {}
+.speaker-info .speaker-company{display:block;font-weight:700!important;}
 
 
 /* Agenda Day CSS */
