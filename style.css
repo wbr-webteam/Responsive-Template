@@ -121,6 +121,12 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .agenda-day .panel-collapse {background:#fff!important;}
 .agenda-day .collapse.in{display:inline!important;min-height:100%!important;}
 
+
+/* Agenda Day Dev CSS*/
+.agenda-day .panel-heading small:after{content:", "; padding-right:4px;}
+.agenda-day h3.panel-title{font-size:1.4em; font-weight:400;}
+
+.agenda-day .panel-body small:after{content:", "; padding-right:4px;}
  
 /* col-xs-* */ 
 @media only screen and (min-width : 320px) {
