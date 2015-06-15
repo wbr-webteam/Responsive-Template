@@ -1,15 +1,15 @@
-
 //Agenda Show toggle
 $(document).ready(function(){
 	$('#toggle').click(function() {
 	    if ($('.panel-collapse').hasClass('in')){
 	        $('.panel-collapse').removeClass('in');  
+			$('#toggle').html('+ Show More');  
 	    } else {
 	        $('.panel-collapse').addClass('in');
+			$('#toggle').html('- Show Less');  
 	      }
 	});
 });
-
 
 // Bootstrap Speakers Live Search
 $(document).ready(function(){
