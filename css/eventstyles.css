@@ -17,8 +17,8 @@ bootstrap-danger:  #d9534f;
 body{background:#fbfbfb; font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';}
 h1.page-header{text-align:center;}
 
-#nav-container{height:50px; background-color:#fff; border-bottom:2px solid #284973;}
-.navbar-default {background:#fff!important; border-bottom:2px solid #012B45!important;}
+#nav-container{height:50px; background-color:#fff; position:absolute; top:0;}
+.navbar-default {background:#fff!important; border-bottom:2px solid #c80b26!important;}
 .nav-navbar-mobile li>a:link {padding:12px; font-size:11px;}
 
 .navbar-nav>li{border-right:1px solid #eee;}
@@ -34,10 +34,16 @@ h1.page-header{text-align:center;}
 .dropdown-menu>li:first-child {margin-top:0px;}
 .dropdown-menu>li:last-child {margin-bottom:0px;}
 .dropdown-menu>li>a:link{font-size:11px; letter-spacing:0.065em; text-transform:uppercase; font-weight:400; padding:10px; font-family:'Lato','Helvetica Neue','Helvetica','Arial','sans-serif';}
- 
+
+#header-content {margin-top:50px;}
+#header-content .event-dynamic-name h3 {color:#E9EED0!important;}
+#header-content .event-dynamic-name:hover {color:#E9EED0!important;}
+#header-content .event-dynamic-info span{color:#fff!important; font-size:80%; font-weight:400; line-height:20px; letter-spacing:0.065em;}
 
 /* col-xs-* */ 
 @media only screen and (min-width :320px){ 
+	#header-content {margin-top:0px;}
+	
 	.navbar-nav>li>a{font-size:10px!important;padding:10px 15px;}
 	.nav-navbar-mobile>li>a{font-size:12px!important;padding:10px 15px;}
    
@@ -59,6 +65,8 @@ h1.page-header{text-align:center;}
 
 /* col-sm-* */
 @media only screen and (min-width :768px){ 
+	#header-content {margin-top:50px;}
+	
 	.navbar-brand img{height:70px; margin-top:-10px;}
   	.navbar-nav{float:none;}
 	.navbar-nav>li>a{font-size:10px!important;padding:15px 9px;}
@@ -70,6 +78,8 @@ h1.page-header{text-align:center;}
 
 /* col-md-* */
 @media only screen and (min-width :992px){
+	#header-content {margin-top:50px;}
+	
 	.navbar-brand img{height:90px; margin-top:-10px;}
  	.navbar-nav{float:left;}
 	.navbar-nav>li>a{font-size:12px!important;padding:15px;}
@@ -81,6 +91,8 @@ h1.page-header{text-align:center;}
 
 /* col-lg-* */
 @media only screen and (min-width :1200px){
+	#header-content {margin-top:50px;}
+	
 	.navbar-brand img{height:110px; margin-top:-10px;}
  	.navbar-nav{float:left;}
 	.navbar-nav>li>a{font-size:12px!important;padding:15px 20px;}
@@ -104,6 +116,7 @@ h1.page-header{text-align:center;}
 .container-fluid .container cite {font-size:18px!important;font-weight:600!important; padding:0px!important; margin:0px!important; border:none;}
 
 
+ 
 /*-----------------------------------------------------------------
 // Agenda Styles
 -----------------------------------------------------------------
@@ -132,30 +145,4 @@ h1.page-header{text-align:center;}
 .quad-track div:nth-child(4) .panel-default>.panel-heading {border:1px #996633 solid; background:#996633;}
 -----------------------------------------------------------------*/
 
-
-/*-----------------------------------------------------------------
-// Pricing Table base Styling
------------------------------------------------------------------*/
-.panel-body {background-color:#aaa;}
-
-/*  Pricing Table Hover Effects */
-.panel.price {border: 1px solid rgb(236, 236, 236); }
-.panel.price, .panel.price>.panel-heading{ border-radius:0px;  -moz-transition: all .3s ease; -o-transition:  all .3s ease; -webkit-transition:  all .3s ease; }
-.panel.price:hover{ box-shadow: 0px 0px 30px rgba(0,0,0, .2); }
-.panel.price:hover>.panel-heading{ box-shadow: 0px 0px 30px rgba(0,0,0, .05) inset; }
-
-/* Pricing Table Subtle Border Styling */
-.panel.price>.panel-heading{ box-shadow: 0px 3px 0px rgba(200,200,200, .2) inset; }
-
-/*  Pricing Table Footer */
-.price .panel-footer { color: #fff; border-bottom:0px; background-color:  rgba(0,0,0, .1); box-shadow: 0px 3px 0px rgba(0,0,0, .3);} /* Footer Box styling */
-.price .pricing-qty {color:gray;}
-
-/* Pricing Table Pricing Header Typography */
-.panel .panel-body p strong {color: #47080B; font-weight:900; font-size:30px;}
-.panel-body p strike {font-size:24px; }
-
-/* Pricing Table Red Button */
-.btn-register{text-shadow:1px 1px #333; color:#fff; background:#c9222b;  font-size:20px ; font-weight:900 ; text-transform:uppercase; letter-spacing:1px ;}
-.btn-register:hover{background:#a7060f ;}
-
+ 

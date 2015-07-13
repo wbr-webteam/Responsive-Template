@@ -1,17 +1,14 @@
 
 //Agenda Show toggle
-$('#toggle').click(function(){
-  $('.panel-collapse.in')
-    .collapse('hide');
-  	$(this).text(function(i, text){
-  	    return text === "- Show Less" ? "+ Show More" : "- Show Less";
-  	})
+$(document).ready(function(){
+	$('#toggle').click(function() {
+	    if ($('.panel-collapse').hasClass('in')){
+	        $('.panel-collapse').removeClass('in');  
+	    } else {
+	        $('.panel-collapse').addClass('in');
+	      }
+	});
 });
-$('#toggle').click(function(){
-  $('.panel-collapse:not(".in")')
-    .collapse('show');
-});
-
 
 
 // Bootstrap Speakers Live Search
@@ -22,10 +19,20 @@ $(document).ready(function(){
 			if($(this).attr("id")){
 				if(!$(this).attr("id").match(new RegExp(str, "i"))){
 					$(this).fadeOut("10");
- 				}else{
+					$( ".errorbox" ).removeClass( "hidden");
+     			}
+			else{
 					$(this).fadeIn("10");
- 				}
+					$( ".errorbox" ).addClass( "hidden");
+  				}
 			}
 		});		
 	});
 });
+
+
+// Sponsor Strip                                 
+$('.sponslider1').cycle({ fx: 'fade', speed: 300, timeout: 2000 });
+$('.sponslider2').cycle({ fx: 'fade', speed: 600, timeout: 2000 });
+$('.sponslider3').cycle({ fx: 'fade', speed: 900, timeout: 2000 });
+                                                  
