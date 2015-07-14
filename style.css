@@ -66,7 +66,7 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 	
 #content-container {min-height:600px;}
 #content-container .container p,ul,ol,li,table,blockquote,cite,address {color:#565656; font-weight:400; line-height:25px; letter-spacing:0.065em;}
-#content-container .container a{color:#428bca!important;}
+#content-container .container a{color:#428bca;}
 #content-container .container .nav-pills>li.active>a, #content-container .container .nav-pills>li.active> #content-container .container a:focus, #content-container .container .nav-pills>li.active>a:hover{color:#fff!important;}
 #content-container .container .btn-primary,.btn-danger,.btn-success,.btn-warning{color:#fff!important;}
 #content-container .container .btn-default{color:#5f5f5f;}
@@ -149,6 +149,12 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .agenda-day .xxx-track .col-xs-12:nth-child(0) div h3.panel-title {}
 .agenda-day .xxx-track .col-xs-12:nth-child(0) div h4.panel-title {}
 .agenda-day .xxx-track .col-xs-12:nth-child(0) div .panel-heading small {}
+
+
+/* Pricing Tables  */
+.pricing .panel-body {background-color:#eee;}
+.pricing .panel.price {border: 1px #eee solid; }
+.pricing .price .panel-footer {background:#eee;}
 
 
 /* col-xs-* */ 
