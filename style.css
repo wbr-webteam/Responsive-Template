@@ -34,7 +34,8 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .text-grey {color:#999!important;}
 .text-black {color:#333!important;}
 .text-blue {color:#012B45!important;}
-.text-white{color:#fff!important; text-shadow:.025em .025em #666;}
+.text-white {color:#fff!important;}
+.text-shadow {text-shadow:.025em .025em #666;}
 
 /* Hover Utility Classes */
 .ease {transition:0.2s; transition-timing-function:linear; -webkit-transition:0.2s; -webkit-transition-timing-function:linear;}
