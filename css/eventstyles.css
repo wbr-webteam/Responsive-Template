@@ -71,7 +71,7 @@ h1.page-header{text-align:center;}
 	
 	.navbar-brand img{height:70px; margin-top:-10px;}
   	.navbar-nav{float:none;}
-	.navbar-nav>li>a{font-size:10px!important;padding:15px 9px;}
+	.navbar-nav>li>a{font-size:10px!important;padding:15px 8px;}
 
 	.dropdown-menu>li>a:link{color:#fff;}
 	.dropdown-menu>li>a:visited{color:#fff;}
