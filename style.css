@@ -125,7 +125,12 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .agenda-day .panel-collapse {background:#fff!important;}
 .agenda-day .collapse.in{display:inline!important;min-height:100%!important;}
 
-
+.agenda-day .speaker-name{}
+.agenda-day .speaker-title{display:block;}
+.agenda-day .speaker-company{display:block;}
+.agenda-day .speaker-image{border-radius: 50%;}
+.agenda-day .speaker-logo {float:right;}
+ 		
 /* Agenda Day Dev CSS*/
 /*.agenda-day .panel:before{font-family: FontAwesome; content: "\f055"; color:#999; float:right; }*/
 
