@@ -125,26 +125,26 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .agenda-day .agenda-track{display:inline-block;   width:100%; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
 .agenda-day .agenda-track .panel{margin-bottom:13px;}
  
-.agenda-day .panel .panel-heading h3 {font-size:18px;}   
-.agenda-day .panel .panel-heading h4 {font-size:14px;}   
-.agenda-day .panel .panel-heading h5 {font-size:12px;}   
+.agenda-day .panel .panel-heading h3 {font-size:18px; color:#565656;}   
+.agenda-day .panel .panel-heading h4 {font-size:14px; color:#565656;}   
+.agenda-day .panel .panel-heading h5 {font-size:12px; color:#565656;}   
 
 .agenda-day .speaker-image{border-radius: 50%!important;}
 
 .agenda-day .double-track{display: inline-block!important; background:#8fb4d3;}
-.agenda-day .double-track .panel-title {color:#8fb4d3 ;}
+.agenda-day .double-track .panel-title {color:#8fb4d3!important;}
 .agenda-day .double-track h2{color:#fff;}
 
 .agenda-day .triple-track{display: inline-block!important; background:#536770;}
-.agenda-day .triple-track h3.panel-title{color:#536770;}
+.agenda-day .triple-track h3.panel-title{color:#536770!important;}
 .agenda-day .triple-track h2{color:#fff;}
 
 .agenda-day .quad-track{display: inline-block!important; background:#89a;}
-.agenda-day .quad-track h3.panel-title{color:#89a;}
+.agenda-day .quad-track h3.panel-title{color:#89a!important;}
 .agenda-day .quad-track h2{color:#fff;}
 
 .agenda-day .quint-track{background:#aa99bb!important;}
-.agenda-day .quint-track h3.panel-title{color:#aa99bb;}
+.agenda-day .quint-track h3.panel-title{color:#aa99bb !important;}
 .agenda-day .quint-track h2{color:#fff;}
 .agenda-day .quint-track .nav-pills>li>a{color:#aa99bb!important;}
 .agenda-day .quint-track .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{background-color:#aa99bb;}
