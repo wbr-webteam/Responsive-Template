@@ -1,6 +1,6 @@
 // Dyanmically add the plus/minus toggle to the header 
 $(document).ready(function() {
-	$('.panel-collapse').has('.panel-body').prev().children('.panel-title').prepend('<i class="fa fa-plus-circle text-grey"></i> ');
+	$('.panel-collapse').has('.panel-body').prev().children('.panel-title').prepend('<i class="fa fa-plus-circle"></i> ');
 	$('.panel-collapse').has('in').prev().children('.panel-title').children().removeClass('fa-plus-circle').addClass('fa-minus-circle');
 });
 
