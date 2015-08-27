@@ -83,8 +83,8 @@ h1.page-header{text-align:center;}
 	#header-content {margin-top:50px;}
 	
 	.navbar-brand img{height:90px; margin-top:-10px;}
- 	.navbar-nav{float:left;}
-	.navbar-nav>li>a{font-size:12px!important;padding:15px;}
+ 	.navbar-nav{float: none;}
+	.navbar-nav>li>a{font-size:12px!important;padding: 12px;}
 	
 	.dropdown-menu>li>a:link{color:#fff; font-size:12px;}
 	.dropdown-menu>li>a:visited{color:#fff;}
