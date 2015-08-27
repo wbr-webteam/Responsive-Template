@@ -10,11 +10,11 @@ $(document).ready(function() {
 		if ($('.panel-collapse').hasClass('in')) {
 			$('.panel-collapse').removeClass('in');
 			$('#toggle').html('+ Show More');
-			$('.panel-title').children().removeClass('fa-minus-circle').addClass('fa-plus-circle');
+			$('.panel-title').children('i').removeClass('fa-minus-circle').addClass('fa-plus-circle');
 		} else {
 			$('.panel-collapse').addClass('in');
 			$('#toggle').html('- Show Less');
-			$('.panel-title').children().removeClass('fa-plus-circle').addClass('fa-minus-circle');
+			$('.panel-title').children('i').removeClass('fa-plus-circle').addClass('fa-minus-circle');
 		}
 	});
 });
@@ -22,7 +22,7 @@ $(document).ready(function() {
 // Agenda Single Panel Toggle
 $(document).ready(function() {
 	$('.panel-title').click(function() {
-		$(this).children().toggleClass('fa-plus-circle').toggleClass('fa-minus-circle');
+		$(this).children('i').toggleClass('fa-plus-circle').toggleClass('fa-minus-circle');
  	});
 });
 
