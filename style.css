@@ -6,11 +6,11 @@ Year: 2015
 eTail Red   - #c80b26
 eTail Blue  - #012B45
 
-bootstrap-primary: #428bca;
-bootstrap-success: #5cb85c;
-bootstrap-info:    #5bc0de;
-bootstrap-warning: #f0ad4e;
-bootstrap-danger:  #d9534f;
+bootstrap-primary: #428bca;  rgba(66, 139, 202, 0.3)
+bootstrap-success: #5cb85c;  rgba(92, 184, 92, 0.3)
+bootstrap-info:    #5bc0de;  rgba(91, 192, 222, 0.3)
+bootstrap-warning: #f0ad4e;  rgba(240, 173, 78, 0.3)
+bootstrap-danger:  #d9534f;  rgba(217, 83, 79, 0.3)
 
 */
 
@@ -114,8 +114,6 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .speaker-info .speaker-image img{margin:0px auto; display:block; max-height:160px; max-width:160px;}
 .speaker-info .speaker-logo img{margin:0px auto; display:block; max-height:140px; max-width:140px;}
 .speaker-info .speaker-bio {margin-top:20px;}
-
-.speaker-info .speaker-title:after {}
 .speaker-info .speaker-company{display:block;font-weight:700!important;}
 
 
@@ -130,6 +128,7 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .agenda-day .panel .panel-heading h4 {font-size:16px;}   
 .agenda-day .panel .panel-heading h5 {font-size:14px;}   
 .agenda-day .panel .panel-heading i.fa {color:#999;}   
+.agenda-day .panel .panel-heading a.session-moderator:before{content:"Moderator: ";}
 .agenda-day .panel .panel-heading .session-time {font-weight:400;}   
 
 .agenda-day .speaker-container .row{margin:10px 0px;}
@@ -138,23 +137,18 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .agenda-day .speaker-title{} 
 .agenda-day .speaker-company{} 
 
-.agenda-day .double-track{display: inline-block!important; background:#8fb4d3;}
-.agenda-day .double-track .panel-title {color:#8fb4d3!important;}
-.agenda-day .double-track h2{color:#fff;}
+.agenda-day .agenda-track{display:inline-block;}
+.agenda-day .double-track,.triple-track,.quad-track,.quint-track{background:#eee;}
 
-.agenda-day .triple-track{display: inline-block!important; background:#536770;}
-.agenda-day .triple-track h3.panel-title{color:#536770!important;}
-.agenda-day .triple-track h2{color:#fff;}
+.agenda-day .first-track>.panel-heading {background-color:rgba(66, 139, 202, 0.15);}
+.agenda-day .second-track>.panel-heading {background-color:rgba(92, 184, 92, 0.15);}
+.agenda-day .third-track>.panel-heading {background-color:rgba(91, 192, 222, 0.15);}
+.agenda-day .fourth-track>.panel-heading {background-color:rgba(240, 173, 78, 0.15);}
 
-.agenda-day .quad-track{display: inline-block!important; background:#8899AA;}
-.agenda-day .quad-track h3.panel-title{color:#8899AA!important;}
-.agenda-day .quad-track h2{color:#fff;}
 
-.agenda-day .quint-track{background:#aa99bb!important;}
-.agenda-day .quint-track h3.panel-title{color:#aa99bb !important;}
-.agenda-day .quint-track h2{color:#fff;}
-.agenda-day .quint-track .nav-pills>li>a{color:#aa99bb!important;}
-.agenda-day .quint-track .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{background-color:#aa99bb;}
+
+
+
 
 
 /* Pricing Tables  */
