@@ -118,33 +118,4 @@ h1.page-header{text-align:center;}
 .container-fluid .container cite {font-size:18px!important;font-weight:600!important; padding:0px!important; margin:0px!important; border:none;}
 
 
- 
-/*-----------------------------------------------------------------
-// Agenda Styles
------------------------------------------------------------------
-.single-track .panel-default{border:1px DarkRed  solid;}
-.single-track .panel-title{color:#fff;}
-.single-track .panel-default>.panel-heading {background:DarkRed ;}
-
-.double-track .panel-default{border:1px green solid	;}
-.double-track .panel-title{color:#fff;}
-.double-track .panel-default>.panel-heading {background:green;}
-.double-track div:nth-child(2) .panel-default {border:1px #003300 solid!important;}
-.double-track div:nth-child(2) .panel-default>.panel-heading {border:1px #003300 solid!important; background:#003300!important;}
-
-.triple-track .panel-default{border:1px blue solid;}
-.triple-track .panel-title{color:#fff;}
-.triple-track .panel-default>.panel-heading {background:blue;}
-.triple-track div:nth-child(3) .panel-default {border:1px #000099 solid;}
-.triple-track div:nth-child(3) .panel-default>.panel-heading {border:1px #000099 solid!important; background:#000099!important;}
-
-.quad-track .panel-default{border:1px orange solid;}
-.quad-track .panel-title{color:#fff;}
-.quad-track .panel-default>.panel-heading {background:orange;}
-.quad-track div:nth-child(2) .panel-default {border:1px #CC9900 solid;}
-.quad-track div:nth-child(2) .panel-default>.panel-heading {border:1px #CC9900 solid; background:#CC9900;}
-.quad-track div:nth-child(4) .panel-default {border:1px #996633 solid;}
-.quad-track div:nth-child(4) .panel-default>.panel-heading {border:1px #996633 solid; background:#996633;}
------------------------------------------------------------------*/
-
- 
+  
