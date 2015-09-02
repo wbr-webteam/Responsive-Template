@@ -6,11 +6,12 @@ Year: 2015
 eTail Red   - #c80b26
 eTail Blue  - #012B45
 
-bootstrap-primary: #428bca;  rgba(66, 139, 202, 0.3)
-bootstrap-success: #5cb85c;  rgba(92, 184, 92, 0.3)
-bootstrap-info:    #5bc0de;  rgba(91, 192, 222, 0.3)
-bootstrap-warning: #f0ad4e;  rgba(240, 173, 78, 0.3)
-bootstrap-danger:  #d9534f;  rgba(217, 83, 79, 0.3)
+Full Color         			  RGBA @ 15% Opacity          Hex = RBGA @ 15% 
+bootstrap-primary: #428bca; / rgba(66, 139, 202, 0.15) /  #E3EEF7
+bootstrap-success: #5cb85c; / rgba(92, 184, 92, 0.15)  /  #E7F5E7
+bootstrap-info:    #5bc0de; / rgba(91, 192, 222, 0.15) /  #E6F6FA
+bootstrap-warning: #f0ad4e; / rgba(240, 173, 78, 0.15) /  #FDF3E4
+bootstrap-danger:  #d9534f; / rgba(217, 83, 79, 0.15)  /  #FAE5E5
 
 */
 
@@ -57,19 +58,9 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 #header-content .event-dynamic-name h3 {color:#fff;}
 #header-content .event-dynamic-name:hover {text-decoration:none!important;}
 #header-content .event-dynamic-info span{color:#fff; display:block;}
-
-#header-content .event-dynamic-info span{color:#fff!important;}
-#header-content .event-dynamic-info span a:link,a:visited,a:focus,a:hover {color:#fff;}
-#header-content .event-dynamic-info span.lang-toggle a:first-child {color:#999; cursor:none;}
-#header-content .event-dynamic-info span.lang-toggle a:first-child:hover {text-decoration:none;}
-
 	
 #content-container {min-height:600px;}
-#content-container .container p,ul,ol,li,table,blockquote,cite,address {color:#565656; font-weight:400; line-height:25px; /* letter-spacing:0.065em; */}
-#content-container .container a{color:#428bca;}
-#content-container .container .nav-pills>li.active>a, #content-container .container .nav-pills>li.active> #content-container .container a:focus, #content-container .container .nav-pills>li.active>a:hover{color:#fff!important;}
-#content-container .container .btn-primary,.btn-danger,.btn-success,.btn-warning{color:#fff!important;}
-#content-container .container .btn-default{color:#5f5f5f;}
+#content-container .container p,ul,ol,li,table,blockquote,cite,address {color:#565656; font-weight:400; line-height:25px; letter-spacing:0.065em;}
 #content-container .container-pricing-control { background:#eee!important; padding-bottom:25px; border-top:1px #dedede solid!important; border-bottom:1px #dedede solid!important; margin:20px 0px;}
 #content-container .container-pricing-control .bg-fa { color:#eee; position:absolute; top:-30px!important;font-size:10em!important; text-shadow:-1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #dedede, 1px 1px 0 #dedede; }
 
@@ -81,8 +72,10 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 	@media only screen and (min-width :992px){#sponsor-container img{height:120px;width:140px;}}
 	@media only screen and (min-width :1200px){#sponsor-container img{height:120px;width:180px;}}
 
-#footer-container {min-height:140px; margin-top:40px; background:#012B45;}
-#footer-container p,a,ul,ol,table,blockquote,cite,address{color:#fff;}
+#footer-container {min-height:140px; padding-top:10px; background:#012B45;}
+#footer-container .row {color:#fff!important;}
+#footer-container .row a{color:#fff!important;}
+#footer-container .row span{color:#fff!important;}
 #footer-container li{border-right:.15em #fff solid; line-height:12px;}
 #footer-container li:last-child {border:none;}
 
@@ -109,16 +102,13 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 .speaker-list .speaker-company{font-weight:700!important;}
 .speaker-list .btn-speaker-bio{margin-top:20px;}
 
-
 /* Speakers Info */
 .speaker-info .speaker-image img{margin:0px auto; display:block; max-height:160px; max-width:160px;}
 .speaker-info .speaker-logo img{margin:0px auto; display:block; max-height:140px; max-width:140px;}
 .speaker-info .speaker-bio {margin-top:20px;}
 .speaker-info .speaker-company{display:block;font-weight:700!important;}
 
-
 /* Agenda Day CSS */
-
 .agenda-day #toggle{margin:15px 0px;} 
 .agenda-day .agenda-track{display:inline-block;   width:100%; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
 .agenda-day .agenda-track .panel{margin-bottom:13px;}
@@ -133,20 +123,29 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 
 .agenda-day .speaker-container .row{margin:10px 0px;}
 .agenda-day .speaker-image{border-radius: 50%!important;}
-.agenda-day .speaker-name{}
-.agenda-day .speaker-title{} 
-.agenda-day .speaker-company{} 
 
 .agenda-day .agenda-track{display:inline-block;}
 .agenda-day .double-track,.triple-track,.quad-track,.quint-track{background:#eee;}
 
-.agenda-day .first-track>.panel-heading {background-color:rgba(66, 139, 202, 0.15);}
-.agenda-day .second-track>.panel-heading {background-color:rgba(92, 184, 92, 0.15);}
-.agenda-day .third-track>.panel-heading {background-color:rgba(91, 192, 222, 0.15);}
-.agenda-day .fourth-track>.panel-heading {background-color:rgba(240, 173, 78, 0.15);}
+.agenda-day .first-track>.panel-heading  {background-color:#E3EEF7;}
+.agenda-day .second-track>.panel-heading {background-color:#E7F5E7;}
+.agenda-day .third-track>.panel-heading  {background-color:#FDF3E4;}
+.agenda-day .fourth-track>.panel-heading {background-color:#FAE5E5;}
 
+.agenda-day .tab-content .tab-pane{margin-top:5px; padding:10px;}
+.agenda-day .tab-content .tab-pane:nth-child(1) {background-color:#E3EEF7;}
+.agenda-day .tab-content .tab-pane:nth-child(2) {background-color:#E7F5E7;}
+.agenda-day .tab-content .tab-pane:nth-child(3) {background-color:#E6F6FA;}
+.agenda-day .tab-content .tab-pane:nth-child(4) {background-color:#FDF3E4;}
+.agenda-day .tab-content .tab-pane:nth-child(5) {background-color:#FAE5E5;}
 
-
+.agenda-day .nav-pills>li.active>a{color:#565656;}
+.agenda-day .nav-pills>li>a{color:#565656;}
+.agenda-day .nav-pills>li:nth-child(1)>a {background-color:#E3EEF7;}
+.agenda-day .nav-pills>li:nth-child(2)>a {background-color:#E7F5E7;}
+.agenda-day .nav-pills>li:nth-child(3)>a {background-color:#E6F6FA;}
+.agenda-day .nav-pills>li:nth-child(4)>a {background-color:#FDF3E4;}
+.agenda-day .nav-pills>li:nth-child(5)>a {background-color:#FAE5E5;}
 
 
 
