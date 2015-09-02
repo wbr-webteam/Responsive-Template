@@ -20,6 +20,7 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 h1.page-header{text-align:center;}
 
 #nav-container{height:50px; background-color:#fff; position:absolute; top:0;}
+
 .navbar-default {background:#fff!important; border-bottom:2px solid #c80b26!important;}
 .nav-navbar-mobile li>a:link {padding:12px; font-size:11px;}
 
@@ -36,16 +37,10 @@ h1.page-header{text-align:center;}
 .dropdown-menu>li:first-child {margin-top:0px;}
 .dropdown-menu>li:last-child {margin-bottom:0px;}
 .dropdown-menu>li>a:link{font-size:11px; letter-spacing:0.065em; text-transform:uppercase; font-weight:400; padding:10px; font-family:'Lato','Helvetica Neue','Helvetica','Arial','sans-serif';}
-
-#header-content {margin-top:50px;}
+ 
 #header-content .event-dynamic-name h3 {color:#E9EED0!important;}
 #header-content .event-dynamic-name:hover {color:#E9EED0!important;}
-#header-content .event-dynamic-info span{color:#fff!important; font-size:80%; font-weight:400; line-height:20px; letter-spacing:0.065em;}
-#header-content .lang-toggle a{color:#fff;}
-
-
-
-
+ 
 /* col-xs-* */ 
 @media only screen and (min-width :320px){ 
 	#header-content {margin-top:0px;}
