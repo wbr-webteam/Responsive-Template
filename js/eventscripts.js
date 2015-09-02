@@ -9,11 +9,11 @@ $(document).ready(function() {
 	$('#toggle').click(function() {
 		if ($('.panel-collapse').hasClass('in')) {
 			$('.panel-collapse').removeClass('in');
-			$('#toggle').html('+ Show More');
+			$('#toggle').html('+ Show All Session Details');
 			$('.panel-title').children('i').removeClass('fa-minus-circle').addClass('fa-plus-circle');
 		} else {
 			$('.panel-collapse').addClass('in');
-			$('#toggle').html('- Show Less');
+			$('#toggle').html('- Hide All Session Details');
 			$('.panel-title').children('i').removeClass('fa-plus-circle').addClass('fa-minus-circle');
 		}
 	});
