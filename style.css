@@ -72,10 +72,11 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 	@media only screen and (min-width :992px){#sponsor-container img{height:120px;width:140px;}}
 	@media only screen and (min-width :1200px){#sponsor-container img{height:120px;width:180px;}}
 
-#footer-container {min-height:140px; padding-top:10px; background:#012B45;}
+#footer-container {min-height:140px; padding-top:20px; background:#012B45;}
+#footer-container .container{font-size:85%;}
 #footer-container .row {color:#fff!important;}
 #footer-container .row a{color:#fff!important;}
-#footer-container .row span{color:#fff!important;}
+#footer-container .row p{color:#fff!important; line-height:15px;}
 #footer-container li{border-right:.15em #fff solid; line-height:12px;}
 #footer-container li:last-child {border:none;}
 
@@ -112,7 +113,7 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 
 /* Agenda Day CSS */
 .agenda-day #toggle{margin:15px 0px;} 
-.agenda-day .agenda-track{display:inline-block;   width:100%; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.agenda-day .agenda-track{display:inline-block; width:100%; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
 .agenda-day .agenda-track .panel{margin-bottom:13px;}
 
 .agenda-day .panel .panel-heading {color:#565656;}
