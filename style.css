@@ -64,11 +64,11 @@ h1,h2,h3,h4,h5{color:#565656; font-weight:300;}
 #content-container .container-pricing-control { background:#eee!important; padding-bottom:25px; border-top:1px #dedede solid!important; border-bottom:1px #dedede solid!important; margin:20px 0px;}
 #content-container .container-pricing-control .bg-fa { color:#eee; position:absolute; top:-30px!important;font-size:10em!important; text-shadow:-1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #dedede, 1px 1px 0 #dedede; }
 
-#sponsor-container {margin-top:20px;}
+#sponsor-container {margin:0px 10px 0px -10px;}
 #sponsor-container img{height:120px; width:180px;}
-	@media only screen and (min-width :320px){#sponsor-container img{height:120px;width:180px;}}
-	@media only screen and (min-width :480px){#sponsor-container img{height:120px;width:180px;}}
-	@media only screen and (min-width :768px){#sponsor-container img{height:120px;width:180px;}}
+	@media only screen and (min-width :320px){#sponsor-container img{height:120px;width:180px; margin:5px 0px;}}
+	@media only screen and (min-width :480px){#sponsor-container img{height:120px;width:180px margin:5px 0px;;}}
+	@media only screen and (min-width :768px){#sponsor-container img{height:120px;width:180px margin:5px 0px;;}}
 	@media only screen and (min-width :992px){#sponsor-container img{height:120px;width:140px;}}
 	@media only screen and (min-width :1200px){#sponsor-container img{height:120px;width:180px;}}
 
